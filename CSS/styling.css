@@ -1,0 +1,240 @@
+body {font-family: 'Roboto', sans-serif;
+        color:var(--main-color);
+        margin: 0px auto;
+        max-width: 1500px;
+        width: 100vw;}
+
+ul  {list-style-type: none;
+     padding-inline-start: 0px;}
+h1, h2, h3, h4 {margin-left: 0px;
+                margin-right: 0px;}
+
+
+:root {--main-color: #2E2F42;
+       --heighlight-bgcolor: #404BBF;
+       --heighlight-color: white;
+       --ro400-s16-lh24: normal normal 400 16px/24px Roboto, sans-serif;
+       --ro500-s20-lh24: normal normal 500 20px/24px Roboto, sans-serif;
+       --ro500-s16-lh24: normal normal 500 16px/24px Roboto, sans-serif;
+       --logo-ra700-s18-lh21: normal normal 800 18px/21px 'Raleway', sans-serif;
+       --current-section: #4D5AE5;
+       --first-heading: normal normal 700 56px/60px Roboto, sans-serif;
+       --second-heading: normal normal 700 36px/40px Roboto, sans-serif;}
+
+.container {box-sizing: content-box;
+           max-width: 1158px;
+           padding: 0px 156px}
+/*HEADER/
+
+/*HEADER decoration*/
+#portofolio-header {border-bottom: 1px solid #E7E9FC;}
+
+/*LOGO decoration*/
+.logo {font: var(--logo-ra700-s18-lh21);
+        text-decoration: none;
+        margin: 0px;
+        padding-top: 1.5px;
+        padding-bottom: 1.5px;}
+
+.logo-web {color:#4D5AE5;
+          letter-spacing: 0.03em;}
+
+.logo-studio-header  {color: var(--main-color);
+                        letter-spacing: 0.03em;}
+
+
+/*NAV decoration*/
+.navigation-menu {margin: 0px;}
+
+.navigation-address {display: flex;
+                     flex-direction: row;
+                     align-items: center;
+                     padding-top: 24px;
+                     padding-bottom: 24px;}
+.navigatoion-menu {padding-left: 76px;}
+.navigation-pages {display: flex;
+                  flex-direction: row;
+                  column-gap: 40px;
+                  margin-top: 0px;
+                  margin-bottom: 0px;
+                  letter-spacing: 0.0212em;}
+.header-address  {display: flex;
+                 flex-direction: row;
+                 align-items: center;
+                 column-gap: 40px;
+                 padding-left: 332px;
+                 letter-spacing: 0.0215em;
+                 margin: 0px;}
+
+.nav-link {text-decoration: none;
+           font: var(--ro500-s16-lh24);}
+        
+
+.nav-link {color: var(--main-color);}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {border-bottom: 1px;
+                  border-style: solid;} /*temporari border*/
+.current {color: var(--current-section);}
+.section {padding-bottom: 120px;
+          padding-top: 120px;}
+.company-skills {padding-top: 120px;}
+
+
+/*ADDRESS decoration*/
+.header-address li {font: var(--ro400-s16-lh24);
+        color:#434455;}
+
+.header-address li:hover,:focus {color: var(--heighlight-bgcolor);}
+
+
+.heading {box-sizing: border-box;
+        background-color: var(--main-color);
+        max-width: 1470px;
+        padding: 188px 472px;
+        }
+ 
+.first-header  {font: var(--first-heading);
+                color: white;
+                padding: 0px;
+                text-align: center;
+                margin-top:0px;
+                margin-bottom:0px;
+                width: 496px;}
+
+.order-service-button {font:var(--ro500-s16-lh24);
+                        background-color: #4D5AE5;
+                        color: white;
+                        cursor: pointer;
+                        margin-top:48px;
+                        margin-left: 180px;
+                        padding: 16px 32px 16px 32px;
+                        border-width: 0xp;
+                        border-width: 0px;}
+
+.order-service-button:hover {color:  #4D5AE5;
+                             background-color:white;
+                             font-weight: 700;
+                             border-width: 0xp;
+                             border-width: 0px;}
+
+/*MENU*/
+.cards-description {display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin: 0px;
+                    column-gap: 24px;}
+
+/*MENU BUTTONS*/
+.page-buttons {cursor: pointer;
+                     display: flex;
+                     flex-direction: row;
+                     justify-content: center;
+                     column-gap: 24px;
+                     padding-top: 96px;
+                     padding-bottom: 72px;
+                     margin-top: 0px;
+                     margin-bottom: 0px;}
+
+.cards-description img {display: block;
+                        max-width: 100%;
+                        height: auto;}
+
+.main-portofolio .cards-description {display: grid;
+                                     grid-template-columns: auto auto auto;
+                                     row-gap: 48px;
+                                     padding-bottom: 120px;}
+
+/*.main-portofolio .description img {display: block;}*/
+.main-portofolio .cards-description div {padding: 32px 16px;}
+
+.buttons-line button {font: var(--ro500-s16-lh24);
+                        letter-spacing: 0.04em;
+                        color: #4D5AE5;
+                        border: 1px solid #E7E9FC;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        text-align: center;
+                        padding: 12px 24px;}
+
+.buttons-line button:hover,
+.buttons-line button:focus {background-color: var(--heighlight-bgcolor);
+                     color: var(--heighlight-color); }
+
+/*ALL-BUTTON description*/
+
+.card-description-studio,
+.card-description-portofolio {background-color:white;}
+
+.card-description-portofolio {border-width:0px 1px 1px;
+                             border-color: #E7E9FC;
+                             border-style: solid;}
+                              
+
+.business-info li {margin-bottom: 0px;
+                   padding-bottom: 0px;}
+
+.card-description-studio h3 {font: var(--ro500-s20-lh24);
+                             color: var(--main-color);
+                             margin-top: 0px;
+                             margin-bottom: 0px;
+                             letter-spacing: 0.02em;}
+
+.card-description-studio h4 {font: var(--ro400-s16-lh24);
+                             color: #434455;
+                             margin-top: 8px;
+                             margin-bottom: 0px;
+                             letter-spacing: 0.02em;}
+
+.employees {background-color: #F4F4FD;}
+/*.employees img {display: block;}*/
+
+
+.card-description-portofolio h3 {font: var(--ro500-s20-lh24);
+                                color: var(--main-color);
+                                margin-top: 0px;
+                                margin-bottom: 0px;}
+
+.card-description-portofolio h4 {font: var(--ro400-s16-lh24);
+                                color: #434455;
+                                margin-top: 8px;
+                                margin-bottom: 0px;}
+
+.business-info h2, .employees h2 {text-align: center;
+                                  font: var(--second-heading);
+                                  margin-top: 0px;
+                                  margin-bottom: 0px;
+                                  padding-bottom: 72px;}
+
+.employees .card-description-studio {padding: 32px 16px;
+                                    text-align: center;
+                                    border-radius: 0px 0px 4px 4px;
+                                    border-top: 0px;
+                                    border-right-width: 1px; 
+                                    border-bottom-width: 1px;
+                                    border-left-width: 1px;
+                                    border-style: solid;
+                                    border-color: #F4F4FD;}
+.employees .card-description-studio h4 {margin-top:8px;}
+
+
+/*FOOTER*/
+.footer {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: var(--main-color);
+        letter-spacing: 0.03em;
+        padding-top: 100px;
+        padding-bottom: 100px;}
+
+.logo-web {color:#4D5AE5;
+           text-decoration: none;}
+.logo-studio-footer  {color: #F4F4FD;
+                      letter-spacing: 0.03em;}
+
+.footer-description {font: var(--ro400-s16-lh24);
+                     color: #F4F4FD;
+                     letter-spacing: 0.02em;
+                     margin-bottom: 0px;
+                     width: 264px;}

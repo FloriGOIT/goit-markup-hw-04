@@ -17,7 +17,7 @@ h1, h2, h3, h4 {margin-left: 0px;
        --ro500-s20-lh24: normal normal 500 20px/24px Roboto, sans-serif;
        --ro500-s16-lh24: normal normal 500 16px/24px Roboto, sans-serif;
        --logo-ra700-s18-lh21: normal normal 800 18px/21px 'Raleway', sans-serif;
-       --current-section: #4D5AE5;
+       --color-iris: #4D5AE5;
        --first-heading: normal normal 700 56px/60px Roboto, sans-serif;
        --second-heading: normal normal 700 36px/40px Roboto, sans-serif;}
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4 {margin-left: 0px;
         padding-top: 1.5px;
         padding-bottom: 1.5px;}
 
-.logo-web {color:#4D5AE5;
+.logo-web {color:var(--color-iris);
           letter-spacing: 0.03em;}
 
 .logo-studio-header  {color: var(--main-color);
@@ -77,7 +77,7 @@ h1, h2, h3, h4 {margin-left: 0px;
 .nav-link:focus,
 .nav-link:active {border-bottom: 1px;
                   border-style: solid;} /*temporari border*/
-.current {color: var(--current-section);}
+.current {color: var(--color-iris);}
 .section {padding-bottom: 120px;
           padding-top: 120px;}
 .company-skills {padding-top: 120px;}
@@ -91,10 +91,11 @@ h1, h2, h3, h4 {margin-left: 0px;
 
 
 .heading {box-sizing: border-box;
-        background-color: var(--main-color);
-        max-width: 1470px;
-        padding: 188px 472px;
-        }
+         background-color: rgba(46, 47, 66, 0.7);
+         max-width: 1470px;
+         padding: 188px 472px;
+         background-image:
+    linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.png");}
  
 .first-header  {font: var(--first-heading);
                 color: white;
@@ -105,7 +106,7 @@ h1, h2, h3, h4 {margin-left: 0px;
                 width: 496px;}
 
 .order-service-button {font:var(--ro500-s16-lh24);
-                        background-color: #4D5AE5;
+                        background-color: var(--color-iris);
                         color: white;
                         cursor: pointer;
                         margin-top:48px;
@@ -114,7 +115,7 @@ h1, h2, h3, h4 {margin-left: 0px;
                         border-width: 0xp;
                         border-width: 0px;}
 
-.order-service-button:hover {color:  #4D5AE5;
+.order-service-button:hover {color:var(--color-iris);
                              background-color:white;
                              font-weight: 700;
                              border-width: 0xp;
@@ -152,7 +153,7 @@ h1, h2, h3, h4 {margin-left: 0px;
 
 .buttons-line button {font: var(--ro500-s16-lh24);
                         letter-spacing: 0.04em;
-                        color: #4D5AE5;
+                        color:var(--color-iris);
                         border: 1px solid #E7E9FC;
                         border-radius: 4px;
                         cursor: pointer;
@@ -185,7 +186,7 @@ h1, h2, h3, h4 {margin-left: 0px;
 .card-description-studio h4 {font: var(--ro400-s16-lh24);
                              color: #434455;
                              margin-top: 8px;
-                             margin-bottom: 0px;
+                             margin-bottom: 7px;
                              letter-spacing: 0.02em;}
 
 .employees {background-color: #F4F4FD;}
@@ -208,7 +209,7 @@ h1, h2, h3, h4 {margin-left: 0px;
                                   margin-bottom: 0px;
                                   padding-bottom: 72px;}
 
-.employees .card-description-studio {padding: 32px 16px;
+.employees .card-description-studio {padding: 30px 16px;
                                     text-align: center;
                                     border-radius: 0px 0px 4px 4px;
                                     border-top: 0px;
@@ -218,6 +219,11 @@ h1, h2, h3, h4 {margin-left: 0px;
                                     border-style: solid;
                                     border-color: #F4F4FD;}
 .employees .card-description-studio h4 {margin-top:8px;}
+.card-description-studio .list-icons {display: flex;
+             flex-direction: row;
+             padding: 0px;
+             margin: 0px;
+            justify-content: space-between;}
 
 
 /*FOOTER*/
@@ -229,7 +235,7 @@ h1, h2, h3, h4 {margin-left: 0px;
         padding-top: 100px;
         padding-bottom: 100px;}
 
-.logo-web {color:#4D5AE5;
+.logo-web {color:var(--color-iris);
            text-decoration: none;}
 .logo-studio-footer  {color: #F4F4FD;
                       letter-spacing: 0.03em;}

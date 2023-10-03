@@ -75,8 +75,10 @@ h1, h2, h3, h4, h5 {margin: 0px;}
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {border-bottom: 1px;
-                  border-style: solid;} /*temporari border*/
-.current {color: var(--color-iris);}
+        border-style: solid;}
+                   /*temporari border*/
+
+                  .current {color: var(--color-iris);}
 .section {padding-bottom: 120px;
           padding-top: 120px;}
 .company-skills {padding-top: 120px;}

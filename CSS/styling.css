@@ -227,8 +227,8 @@ h1, h2, h3, h4, h5 {margin: 0px;}
         border-bottom-width: 1px;
         border-left-width: 1px;
         border-style: solid;
-        border-color: #F4F4FD;
-        box-shadow:0px 2px 1px 0px #2E2F4214,
+        border-color: #F4F4FD;}
+.team .cards-description >li {box-shadow:0px 2px 1px 0px #2E2F4214,
                    0px 1px 1px 0px #2E2F4229, 
                    0px 1px 6px 0px #2E2F4214;}
 

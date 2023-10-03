@@ -244,8 +244,8 @@ h1, h2, h3, h4, h5 {margin: 0px;}
              padding: 0px;
              margin: 0px;
             justify-content: space-between;}
-.list-icons>li:focus,
-.list-icons>li:hover {fill: var(--color-iris);}
+.clients .list-icons li:focus,
+.clients .list-icons li:hover {fill:#4D5AE5;}
 
 
 /*FOOTER*/

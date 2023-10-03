@@ -144,9 +144,7 @@ h1, h2, h3, h4, h5 {margin: 0px;}
                     margin: 0px;
                     column-gap: 24px;}
 
-.cards-description>li:hover {box-shadow:0px 2px 1px 0px #2E2F4214,
-                                        0px 4px 1px 0px #2E2F4229, 
-                                        0px 6px 6px 0px #2E2F4214;}
+
 
 .cards-description img {display: block;
                         max-width: 100%;
@@ -182,6 +180,10 @@ h1, h2, h3, h4, h5 {margin: 0px;}
 .card-description-portofolio {border-width:0px 1px 1px;
                              border-color: #E7E9FC;
                              border-style: solid;}
+
+.cards-portofolio .cards-description >li:hover {box-shadow:0px 2px 1px 0px #2E2F4214,
+                                                           0px 4px 1px 0px #2E2F4229, 
+                                                           0px 6px 6px 0px #2E2F4214;}
                               
 
 .business-info li {margin-bottom: 0px;
@@ -200,7 +202,7 @@ h1, h2, h3, h4, h5 {margin: 0px;}
                              letter-spacing: 0.02em;}
 
 .team {background-color: #F4F4FD;}
-/*.team img {display: block;}*/
+
 
 
 .card-description-portofolio h3 {font: var(--ro500-s20-lh24);
@@ -213,7 +215,22 @@ h1, h2, h3, h4, h5 {margin: 0px;}
                                 margin-top: 8px;
                                 margin-bottom: 0px;}
 
+.team {background-color: #F4F4FD;}
+
 .team .card-description-studio h4 {margin-top:8px;}
+
+.team .card-description-studio {padding: 30px 16px;
+        text-align: center;
+        border-radius: 0px 0px 4px 4px;
+        border-top: 0px;
+        border-right-width: 1px; 
+        border-bottom-width: 1px;
+        border-left-width: 1px;
+        border-style: solid;
+        border-color: #F4F4FD;
+        box-shadow:0px 2px 1px 0px #2E2F4214,
+                   0px 1px 1px 0px #2E2F4229, 
+                   0px 1px 6px 0px #2E2F4214;}
 
 .business-info h2, .team h2, .clients h2 {text-align: center;
                                   font: var(--second-heading);
@@ -221,18 +238,6 @@ h1, h2, h3, h4, h5 {margin: 0px;}
                                   margin-bottom: 0px;
                                   padding-bottom: 72px;}
 
-.team .card-description-studio {padding: 30px 16px;
-                                    text-align: center;
-                                    border-radius: 0px 0px 4px 4px;
-                                    border-top: 0px;
-                                    border-right-width: 1px; 
-                                    border-bottom-width: 1px;
-                                    border-left-width: 1px;
-                                    border-style: solid;
-                                    border-color: #F4F4FD;
-                                    box-shadow:0px 2px 1px 0px #2E2F4214,
-                                               0px 1px 1px 0px #2E2F4229, 
-                                               0px 1px 6px 0px #2E2F4214;}
 
 .list-icons {display: flex;
              flex-direction: row;

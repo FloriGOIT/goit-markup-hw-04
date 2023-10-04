@@ -59,13 +59,6 @@ h1, h2, h3, h4, h5 {margin: 0px;}
                   margin-top: 0px;
                   margin-bottom: 0px;
                   letter-spacing: 0.0212em;}
-.header-address  {display: flex;
-                 flex-direction: row;
-                 align-items: center;
-                 column-gap: 40px;
-                 padding-left: 332px;
-                 letter-spacing: 0.0215em;
-                 margin: 0px;}
 
 .nav-link {text-decoration: none;
            font: var(--ro500-s16-lh24);}
@@ -86,10 +79,32 @@ h1, h2, h3, h4, h5 {margin: 0px;}
 
 
 /*ADDRESS decoration*/
-.header-address li {font: var(--ro400-s16-lh24);
+.header-address  {display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 40px;
+        padding-left: 306px;
+        letter-spacing: 0.0215em;
+        margin: 0px;
+        font: var(--ro400-s16-lh24);
         color:#434455;}
+.header-address li{display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;}
 
-.header-address li:hover,:focus {color: var(--heighlight-bgcolor);}
+.header-address li:hover,:focus {color: var(--heighlight-bgcolor);
+                                 fill:var(--heighlight-bgcolor)}
+
+
+/*.header-address .email {box-sizing:border-box;
+        width: 161px;}*/
+
+/*.header-address .phone {box-sizing:border-box;
+                                width: 132px;}*/
+
+
+
 
 
 .heading {box-sizing: border-box;

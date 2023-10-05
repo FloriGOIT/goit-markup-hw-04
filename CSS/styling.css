@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5 {margin: 0px;}
        --ro500-s20-lh24: normal normal 500 20px/24px Roboto, sans-serif;
        --ro500-s16-lh24: normal normal 500 16px/24px Roboto, sans-serif;
        --logo-ra700-s18-lh21: normal normal 800 18px/21px 'Raleway', sans-serif;
-       --color-iris: #4D5AE5;
+       --color-iris:#4D5AE5;
        --first-heading: normal normal 700 56px/60px Roboto, sans-serif;
        --second-heading: normal normal 700 36px/40px Roboto, sans-serif;}
 
@@ -24,12 +24,12 @@ h1, h2, h3, h4, h5 {margin: 0px;}
            max-width: 1158px;
            padding: 0px 156px}
 
-/*HEADER/
+/*HEADER*/
 
-/*HEADER decoration*/
+/*HEADER 1.HEADER decoration*/
 #portofolio-header {border-bottom: 1px solid #E7E9FC;}
 
-/*LOGO decoration*/
+/*HEADER 2.LOGO decoration*/
 .logo {font: var(--logo-ra700-s18-lh21);
         text-decoration: none;
         margin: 0px;
@@ -66,8 +66,8 @@ h1, h2, h3, h4, h5 {margin: 0px;}
 
 .nav-link {color: var(--main-color);}
 
-.nav-link:hover,
 .nav-link:focus,
+.nav-link:hover,
 .nav-link:active {border-bottom: 1px;
         border-style: solid;}
                    /*temporari border*/
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5 {margin: 0px;}
 .advantages {padding-top: 120px;}
 
 
-/*ADDRESS decoration*/
+/*HEADER 3.ADDRESS decoration*/
 .header-address  {display: flex;
         flex-direction: row;
         align-items: center;
@@ -93,18 +93,9 @@ h1, h2, h3, h4, h5 {margin: 0px;}
         align-items: center;
         gap: 10px;}
 
-.header-address li:hover,:focus {color: var(--heighlight-bgcolor);
+.header-address li:focus,
+.header-address li:hover {color: var(--heighlight-bgcolor);
                                  fill:var(--heighlight-bgcolor)}
-
-
-/*.header-address .email {box-sizing:border-box;
-        width: 161px;}*/
-
-/*.header-address .phone {box-sizing:border-box;
-                                width: 132px;}*/
-
-
-
 
 
 .heading {box-sizing: border-box;
@@ -182,8 +173,8 @@ h1, h2, h3, h4, h5 {margin: 0px;}
                         text-align: center;
                         padding: 12px 24px;}
 
-.buttons-line button:hover,
-.buttons-line button:focus {background-color: var(--heighlight-bgcolor);
+.buttons-line button:focus,
+.buttons-line button:hover {background-color: var(--heighlight-bgcolor);
                      color: var(--heighlight-color);
                      box-shadow: inset 0 0 20px 5px rgba(10, 51, 77, 0.671); }
 
@@ -259,8 +250,25 @@ h1, h2, h3, h4, h5 {margin: 0px;}
              padding: 0px;
              margin: 0px;
             justify-content: space-between;}
-.clients .list-icons li:focus,
-.clients .list-icons li:hover {fill:#4D5AE5;}
+
+.icons-body {display: flex;
+            flex-direction: row;
+            padding: 0px;
+            margin: 0px;
+            justify-content: space-between;
+            fill: #AFB1B8;}
+
+.icon:focus,
+.icon:hover circle {fill: var(--color-iris);}
+
+.icon:focus,
+.icon:hover use {fill:white;}
+
+.logo-customers:focus,
+.logo-customers:hover {fill:var(--color-iris);}
+
+.logo-customers rect:focus,
+.logo-customers rect:hover {stroke:var(--color-iris);}
 
 
 /*FOOTER*/
@@ -286,10 +294,15 @@ h1, h2, h3, h4, h5 {margin: 0px;}
             font: var(--ro500-s16-lh24);
             margin-bottom: 16px;}
 .social .list-icons {display: flex;
-                  flex-direction: row;
-                  gap: 16px;}
+                    flex-direction: row;
+                    gap: 16px;}
 .footer .logo-descriprion {padding-top: 100px;
         padding-bottom: 100px;}
 .footer .social {padding-top: 100px;
                 padding-bottom: 132px;}
+
+.icons-footer:focus circle,               
+.icons-footer:hover circle {fill: var(--color-iris);}
+
+
 

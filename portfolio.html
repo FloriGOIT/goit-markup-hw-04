@@ -12,21 +12,30 @@
     <link rel="stylesheet" href="./CSS/styling.css"/>
 </head>
 <body>
-    <header id="portofolio-header">
-        <div  class="navigation-address container">
-            <a class="logo" href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=296711-361&mode=design&t=uifqZGDZy3SK6BkO-0"><span class="logo-web">WEB</span><span class="logo-studio-header">STUDIO</span></a>
-            <nav class="navigatoion-menu"> <!-- navigatoion-menu -->
-                <ul class="navigation-pages">
-                    <li><a href="index.html" class="nav-link">Studio</a></li>
-                    <li><a href="portfolio.html" class="nav-link current" id="curret">Portfolio</a></li>
-                    <li><a href="https://www.google.com/" class="nav-link">Contacts</a></li>
-                </ul>
-            </nav>
-            <ul class="header-address"> <!-- header-address -->
-                <li>info@devstudio.com</li>
-                <li>+11 (000) 111-11-11</li>
+    <header class="navigation-address container">
+        <a class="logo" href="https://www.figma.com/file/B1m2uk25m1eAgroESAuM2g/Web-Studio-(Version-3.0)?type=design&node-id=296711-361&mode=design&t=uifqZGDZy3SK6BkO-0"><span class="logo-web">WEB</span><span class="logo-studio-header">STUDIO</span></a>
+        <nav class="navigatoion-menu"> <!-- navigatoion-menu -->
+            <ul class="navigation-pages">
+                <li><a href="index.html" class="nav-link current">Studio</a></li>
+                <li><a href="portfolio.html" class="nav-link" id="curret">Portfolio</a></li>
+                <li><a href="https://www.google.com/" class="nav-link">Contacts</a></li>
             </ul>
-        </div>
+        </nav>
+        <ul class="header-address"> <!-- header address -->
+            <li class="email">
+                <svg width="16" height="12">
+                    <use href="./images/icons.svg#icon-envelope" width="16" height="12"></use>
+                </svg>
+                <p>info@devstudio.com</p>
+            </li>
+            <li class="phone">
+                <svg width="10" height="16">
+                    <use href="./images/icons.svg#icon-smartphone" width="10" height="16"></use>
+                </svg>
+                <p>+11 (000) 111-11-11</p>
+            </li>
+
+        </ul>
     </header>
 
     <main  class="main-portofolio">
@@ -115,27 +124,27 @@
             <h5>Social media</h5>
             <ul class="list-icons">
                 <li>
-                    <svg width="40" height="40">
-                        <circle r="20" cx="20" cy="20" fill="var(--color-iris)"/>
-                        <use href="./images/icons.svg#icon-instagram" width="24" height="24" x="8" y="8"></use>
+                    <svg class="icons-footer" width="40" height="40">
+                        <circle r="20" cx="20" cy="20" fill="rgba(255, 255, 255, 0.1)"/>
+                        <use href="./images/icons.svg#icon-instagram" width="24" height="24" x="8" y="8" fill="white"></use>
                     </svg>
                 </li>
                 <li>
-                    <svg width="40" height="40">
-                        <circle r="20" cx="20" cy="20" fill="var(--color-iris)"/>
-                        <use href="./images/icons.svg#icon-twitter" width="24" height="24" x="8" y="8"></use>
+                    <svg class="icons-footer" width="40" height="40">
+                        <circle r="20" cx="20" cy="20" fill="rgba(255, 255, 255, 0.1)"/>
+                        <use href="./images/icons.svg#icon-twitter" width="24" height="24" x="8" y="8" fill="white"></use>
                     </svg>
                 </li>
                 <li>
-                    <svg width="40" height="40">
-                        <circle r="20" cx="20" cy="20" fill="var(--color-iris)"/>
-                        <use href="./images/icons.svg#icon-facebook" width="24" height="24" x="8" y="8"></use>
+                    <svg class="icons-footer" width="40" height="40">
+                        <circle r="20" cx="20" cy="20" fill="rgba(255, 255, 255, 0.1)"/>
+                        <use href="./images/icons.svg#icon-facebook" width="24" height="24" x="8" y="8" fill="white"></use>
                     </svg>
                 </li>
                 <li>
-                    <svg width="40" height="40">
-                        <circle r="20" cx="20" cy="20" fill="var(--color-iris)"/>
-                        <use href="./images/icons.svg#icon-linkedin" width="24" height="24" x="8" y="8"></use>
+                    <svg class="icons-footer" width="40" height="40">
+                        <circle r="20" cx="20" cy="20" fill="rgba(255, 255, 255, 0.1)"/>
+                        <use href="./images/icons.svg#icon-linkedin" width="24" height="24" x="8" y="8" fill="white"></use>
                     </svg>
                 </li>
             </ul>

@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5 {margin: 0px;}
                         max-width: 100%;
                         height: auto;}
 
-.main-portofolio .cards-description {display: grid;
+.cards-portofolio .cards-description {display: grid;
                                      grid-template-columns: auto auto auto;
                                      row-gap: 48px;
                                      padding-bottom: 120px;}
@@ -184,8 +184,8 @@ h1, h2, h3, h4, h5 {margin: 0px;}
 .card-description-portofolio {background-color:white;}
 
 .card-description-portofolio {border-width:0px 1px 1px;
-                             border-color: #E7E9FC;
-                             border-style: solid;}
+                              border-color: #E7E9FC;
+                              border-style: solid;}
 
 .cards-portofolio .cards-description >li:hover {box-shadow:0px 2px 1px 0px #2E2F4214,
                                                            0px 4px 1px 0px #2E2F4229, 
@@ -274,9 +274,6 @@ h1, h2, h3, h4, h5 {margin: 0px;}
 .logo-customers rect:hover {stroke:var(--color-iris);}
 
 .clients .icons-body {gap: 30px;}
-
-
-
 
 /*FOOTER*/
 .footer {display: flex;
